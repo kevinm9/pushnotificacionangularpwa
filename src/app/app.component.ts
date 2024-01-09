@@ -41,7 +41,7 @@ export class AppComponent {
   listen() {
     this.afMessaging.messages.subscribe((message) => {
       console.log(message);
-      alert('nuevo alumon');
+      alert('nuevo alumno');
     });
   }
 }
